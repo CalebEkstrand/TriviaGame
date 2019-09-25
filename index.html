@@ -1,1 +1,73 @@
+<!DOCTYPE html>
 
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="assets/CSS/stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Bahiana&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Random Facts Game</h1>
+    <div id="main">
+
+        <div id="hour-glass"></div>
+        <form>
+            <div class="form-group">
+                <label for="Q1">A lions roar can be heard from up to 5 miles away.</label>
+                <div class="form-control form-radio form-control-inline">
+                    <input value="true" type="radio" name="Q1" class="form-control-input">
+                    <label class="form-control-label" for="Q1">True</label>
+                </div>
+                <div class="form-control form-radio form-control-inline">
+                    <input value="false" type="radio" name="Q1" class="form-control-input">
+                    <label class="form-control-label" for="Q1">False</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Q2">The Great Wall of China is the only human-made object visible from space.</label>
+                <div class="form-control form-radio form-control-inline">
+                    <input value="true" type="radio" name="Q2" class="form-control-input">
+                    <label class="form-control-label" for="Q2">True</label>
+                </div>
+                <div class="form-control form-radio form-control-inline">
+                    <input value="false" type="radio" name="Q2" class="form-control-input">
+                    <label class="form-control-label" for="Q2">False</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Q3">Horseshoe crab blood costs $60,000 a gallon due to its copper based blood.</label>
+                <div class="form-control form-radio form-control-inline">
+                    <input value="true" type="radio" name="Q3" class="form-control-input">
+                    <label class="form-control-label" for="Q3">True</label>
+                </div>
+                <div class="form-control form-radio form-control-inline">
+                    <input value="false" type="radio" name="Q3" class="form-control-input">
+                    <label class="form-control-label" for="Q3">False</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div id="results">
+        <div id="correct"></div>
+        <div id="incorrect"></div>
+    </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./assets/Javascript/app.js"></script>
+
+</body>
+
+</html>
